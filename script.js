@@ -10,11 +10,17 @@ const perguntas = [
         alternativas: [
         {
             texto:"Isso é assustador!",
-            afirmação: "Afirmação 1" 
+            afirmação: [ 
+                "No início, ficou com medo do que essa tecnologia pode fazer.",
+            "Achou assustador pensar na velocidade com que a tecnologia está avançando."
+            ]
         },
         {
             texto:"Isso é maravilhoso!",
-            afirmação: "Afirmação 2"
+            afirmação: [
+                "Quis saber como usar IA no seu dia a dia.",
+            "Pensou que a IA pode ajudar em tarefas da sua vida."
+            ]
         }
         ],
     },
@@ -64,8 +70,8 @@ let historiaFinal = "";
 
 function mostraPergunta(){
     if (atual >= perguntas.length) {
-        mostraResultado();
-        return;
+       mostraResultado();
+       return; 
     }
     perguntaAtual = perguntas [atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
@@ -79,18 +85,17 @@ function mostraAlternativas(){
         botaoAlternativas.addEventListener("click", () =>
             respostaSelecionada(alternativa)); 
             function respostaSelecionada (opcaoSelecionada){
-                const afirmacoes = opcaoSelecionada.afirmacao;
+                const afirmacoes = opcaoSelecionada.afirmação;
                 historiaFinal += afirmacoes + "";
                 atual++;
                 mostraPergunta();
-            }
-        );
+            };
         caixaAlternativas.appendChild(botaoAlternativas);
         }
 }
-function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
+function mostraResultado (){
+    caixaPerguntas.textContent = "Em 2049 ...";
+    textoResultado. textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 mostraPergunta();
