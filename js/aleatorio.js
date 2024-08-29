@@ -1,4 +1,8 @@
+const nomes = ["Gabi", "Nayara"];
+
 export function aleatorio (lista){
-    //Trecho so codigo suprimido
-}
-const nomes = ["Gabi, Nayara"];
+    const posicao = Math.floor(Math.random()*lista.length);   
+    return lista [posicao];
+ }
+
+ export const nome = aleatorio(nomes)
