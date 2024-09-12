@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Decidir o futuro do planeta é uma tarefa complexa que envonve diversos fatores. Você poderá escolher as alternativas que considera que tenha um impacto positivo com o planeta.",
         alternativas: [
             {
                 texto: "Isso é assustador!",
@@ -19,17 +19,17 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Qual das seguintes abordagens é mais eficaz para mitigar o impacto ambiental da agricultura em relação à preservação do solo e à redução da poluição hídrica?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Adotar práticas de monocultura intensiva com uso elevado de fertilizantes e pesticidas químicos.",
                 afirmacao: [
                     "Conseguiu utilizar a IA para buscar informações úteis."
                 ],
                 proxima: 3,
                 },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: " Implementar a rotação de culturas e o uso de técnicas de agricultura orgânica, como compostagem e controle biológico de pragas.",
                 afirmacao: [
                     "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
                 ],
