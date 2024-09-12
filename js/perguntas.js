@@ -19,10 +19,10 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "As queimadas têm sido um problema recorrente no Brasil, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. como esse tipo de situação poderia ser revertido?",
+        enunciado: "As queimadas têm sido um problema recorrente no Brasil, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. Como esse tipo de situação poderia ser revertido?",
         alternativas: [
             {
-                texto: "Resposta 1",
+                texto: "Reforçar e implementar leis ambientais e de proteção florestal mais rigorosas para combater o desmatamento ilegal e práticas agrícolas inadequadas, ou seja, fortalecer a Legislação e Fiscalização.",
                 afirmacao: [
                     "Conseguiu utilizar a IA para buscar informações úteis."
                 ],
