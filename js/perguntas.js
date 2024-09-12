@@ -19,17 +19,17 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Qual das seguintes abordagens é mais eficaz para mitigar o impacto ambiental da agricultura em relação à preservação do solo e à redução da poluição hídrica?",
+        enunciado: "As queimadas têm sido um problema recorrente no Brasil, especialmente na amazônia e no Cerrado, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. como esse tipo de situação poderia ser revertido?",
         alternativas: [
             {
-                texto: "Adotar práticas de monocultura intensiva com uso elevado de fertilizantes e pesticidas químicos.",
+                texto: "Resposta 1",
                 afirmacao: [
                     "Conseguiu utilizar a IA para buscar informações úteis."
                 ],
                 proxima: 3,
                 },
             {
-                texto: " Implementar a rotação de culturas e o uso de técnicas de agricultura orgânica, como compostagem e controle biológico de pragas.",
+                texto: "Resposta 2",
                 afirmacao: [
                     "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
                 ],
@@ -38,17 +38,17 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Depois que você escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro. O que você faz?",
+        enunciado: "Pergunta",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Resposta 1",
                 afirmacao: [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
                 ],
                 proxima: 5,
                 },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Resposta 2",
                 afirmacao: [
                     "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
                 ],
