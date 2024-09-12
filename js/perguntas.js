@@ -19,7 +19,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "As queimadas têm sido um problema recorrente no Brasil, especialmente na amazônia e no Cerrado, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. como esse tipo de situação poderia ser revertido?",
+        enunciado: "As queimadas têm sido um problema recorrente no Brasil, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. como esse tipo de situação poderia ser revertido?",
         alternativas: [
             {
                 texto: "Resposta 1",
