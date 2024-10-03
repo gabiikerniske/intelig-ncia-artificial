@@ -4,24 +4,25 @@ import { perguntas } from './perguntas.js';
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-resultados");
+const caixaResultados = document.querySelector(".caixa-resultados");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
-const botaoiniciar = documen.querySelector(".iniciar-btn");
+const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
+
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-botaoiniciar.addEventListener('click',iniciaJogo);
+botaoIniciar.addEventListener('click',iniciaJogo);
 function iniciaJogo () {
     atual = 0;
     historiaFinal = "";
     telaInicial.style.display = 'none';
     caixaPerguntas.classList.remove("mostrar");
     caixaAlternativas.classList.remove("mostrar");
-    caixaResultado.classList.remove("mostrar");
-    mostraPergunta();
+    caixaResultados.classList.remove("mostrar");
+    mostraPergunta();  
 }
 
 function mostraPergunta() {
@@ -42,6 +43,11 @@ function mostraAlternativas() {
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
+function mostraAfirmacoes (){
+    for(const afirmacoes of perguntaAtual.afirmacoes){
+        
+    }
+}
 }
 
 function respostaSelecionada(opcaoSelecionada) {
@@ -60,14 +66,14 @@ function mostraResultado() {
     caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    caixaResultado.classList.add("mostrar");
+    caixaResultados.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
 function jogaNovamente() {
     atual = 0;
     historiaFinal = "";
-    caixaResultado.classList.remove("mostrar");
+    caixaResultados.classList.remove("mostrar");
     mostraPergunta();
 }
 

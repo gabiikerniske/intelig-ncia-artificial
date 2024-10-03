@@ -1,35 +1,35 @@
 export const perguntas = [
     {
-        enunciado: "Decidir o futuro do planeta é uma tarefa complexa que envonve diversos fatores. Você poderá escolher as alternativas que considera que tenha um impacto positivo com o planeta.",
+        enunciado: "Ao ir para o colégio você se depara com um sol avermelhado e percebeu que o céu perdeu seu tom azul. Chegando lá, tem uma aula sobre o aquecimento global e como isso pode afetar nossas futuras gerações e até a nossa geração. Qual seria sua reação?",
         alternativas: [
-            {
-                texto: "Isso é assustador!",
-                afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer. "
+            {   
+            texto: "Isso não é culpa minha!",
+            afirmacao: [
+                    "Todos nós precisamos do planeta Terra para sobreviver, logo, se torna responsabilidade de todos zelar por ele. Se ele se encontra em estado de calamidade, é nossa culpa e se não mudarmos nossa atitude, geraremos nossa própria extinção!"
                 ],
                 proxima: 1,
-                },
+            },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Como chegamos nesse ponto?!",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia."
+                    "Podemos melhorar essas condições com nossas atitudes e conscientização do máximo possível de pessoas do nosso redor."
                 ],
                 proxima: 2,
                 }
         ]
     },
     {
-        enunciado: "As queimadas têm sido um problema recorrente no Brasil, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. Como esse tipo de situação poderia ser revertido?",
+        enunciado: "Podemos fazer a nossa parte com pequenas ações no nosso dia a dia ",
         alternativas: [
             {
-                texto: "Reforçar e implementar leis ambientais e de proteção florestal mais rigorosas para combater o desmatamento ilegal e práticas agrícolas inadequadas, ou seja, fortalecer a Legislação e Fiscalização.",
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: [
                     "Conseguiu utilizar a IA para buscar informações úteis."
                 ],
                 proxima: 3,
                 },
             {
-                texto: "Resposta 2",
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: [
                     "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
                 ],
@@ -38,17 +38,17 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta",
+        enunciado: "Depois que você escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro. O que você faz?",
         alternativas: [
             {
-                texto: "Resposta 1",
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
                 ],
                 proxima: 5,
                 },
             {
-                texto: "Resposta 2",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
                 afirmacao: [
                     "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
                 ],
