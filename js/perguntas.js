@@ -1,18 +1,18 @@
 export const perguntas = [
     {
-        enunciado: "Ao ir para o colégio você se depara com um sol avermelhado e percebeu que o céu perdeu seu tom azul. Chegando lá, tem uma aula sobre o aquecimento global e como isso pode afetar nossas futuras gerações e até a nossa geração. Qual seria sua reação?",
+        enunciado: "As queimadas têm sido um problema recorrente no Brasil, causando uma devastação ambiental significativa, perda da biodiversidade e impacto negativo no clima global. Esses incêndios muitas vezes são o resultado de práticas agrícolas inadequadas, desmatamento ilegal e alguns outros fatores. Como esse tipo de situação poderia ser revertido?",
         alternativas: [
             {   
-            texto: "Isso não é culpa minha!",
+            texto: "Isso é impossível!",
             afirmacao: [
-                    "Todos nós precisamos do planeta Terra para sobreviver, logo, se torna responsabilidade de todos zelar por ele. Se ele se encontra em estado de calamidade, é nossa culpa e se não mudarmos nossa atitude, geraremos nossa própria extinção!"
+                    "Isso não é impossivel! Pois grande parte das queimadas são oriundas de ações humanas, e a solução para esse problema deve ser pela conscientização e mudança de hábitos da sociedade."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Como chegamos nesse ponto?!",
+                texto: "Com a conscientização e mudanças de hábitos da sociedade!",
                 afirmacao: [
-                    "Podemos melhorar essas condições com nossas atitudes e conscientização do máximo possível de pessoas do nosso redor."
+                    "Uma sociedade com bons hábitos fará do planeta um lugar melhor."
                 ],
                 proxima: 2,
                 }
