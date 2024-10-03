@@ -19,19 +19,19 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Podemos fazer a nossa parte com pequenas ações no nosso dia a dia ",
+        enunciado: "Os efeitos das Mudanças Climáticas veem sendo acelerados nos últimos anos pela atividade humana. Segundo a ONU, desde o século XIX, as atividades humanas têm sido o principal motor da mudança climática. Quais medidas poderiam ser implementadas para reduzir o impacto gerado pelas alterações climáticas?  ",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "É impossível implentar medidas que ajudem a reduzir esses impactos!",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis."
+                    "A ONU afirma que grande parte das mudanças climáticas são geradas pelo ser humano, então é nosso dever cuidar do planeta para que o próprio não entre em extinção."
                 ],
                 proxima: 3,
                 },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Adotar práticas sustentáveis, substituir combustíveis fósseis e principalmente reduzir as emissões dos gases de efeito estufa!",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                    "Adotando práticas sustentáveis podemos reduzir o aquecimento global a um máximo de 1,5 ou 2 graus até 2050"
                 ],
                 proxima: 4,
                 }
