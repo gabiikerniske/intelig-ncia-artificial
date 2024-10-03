@@ -38,38 +38,38 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Depois que você escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro. O que você faz?",
+        enunciado: "Os efeitos das Mudanças Climáticas veem sendo acelerados nos últimos anos pela atividade humana. Segundo a ONU, desde o século XIX, as atividades humanas têm sido o principal motor da mudança climática. Quais medidas poderiam ser implementadas para reduzir o impacto gerado pelas alterações climáticas?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "É impossível implentar medidas que ajudem a reduzir esses impactos!",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                    "A ONU afirma que grande parte das mudanças climáticas são geradas pelo ser humano, então é nosso dever cuidar do planeta para que o próprio não entre em extinção."
                 ],
                 proxima: 5,
                 },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Adotar práticas sustentáveis, substituir combustíveis fósseis e principalmente reduzir as emissões dos gases de efeito estufa!",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                    "Adotando práticas sustentáveis podemos reduzir o aquecimento global a um máximo de 1,5 ou 2 graus até 2050"
                 ],
                 proxima: 6,
                 }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O desmatamento consiste na remoção da vegetação para o suprimento e o desenvolvimento das atividade produtivas. É um dos principais problemas ambientais do Brasil. Quais as consequências do desmatamento?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Perda da biodiversidade e, consequentemente, à extinção de espécies.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                    "O desmatamento causa inumeros impactos negativos ao planeta, é importante que tenhamos conciência antes de cometer qualquer ato que comprometa a integridade planeta."
                 ],
                 proxima: 7,
                 },
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Não há consequências negativas!",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                    "O desmatamento provoca um amplo conjunto de impactos negativos ao meio ambiente, entre eles estão a perda da biodiversidade e, consequentemente, à extinção de espécies."
                 ],
                 proxima: 7,
                 }
